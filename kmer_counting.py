@@ -93,6 +93,7 @@ class sequence2matrix:
         #    if vector != 0:
         #        matrix.append(vector)
         #        np.save(save_dir, matrix)
-        np.save(save_dir, matrix)
+        #np.save(save_dir, matrix)
         #np.array([rna_to_dictionary(rna_strand=rna_strand, k_val=self.k_value, comb_list=self.rna_combination) for rna_strand in list_of_rna_sequence if rna_to_dictionary(rna_strand=rna_strand, k_val=self.k_value, comb_list=self.rna_combination) != 0])
+        np.save(save_dir+"_parameter", self.rna_combination)
         return np.array(matrix)
