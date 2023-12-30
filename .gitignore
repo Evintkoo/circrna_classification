@@ -8,6 +8,10 @@ __pycache__/
 
 # numpy data
 *.npy
+dataset/human_sequence_v3.0
+
+#models
+models/
 
 # Distribution / packaging
 .Python
